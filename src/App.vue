@@ -220,7 +220,7 @@ const geojsonSource = () => {
     } else {
       result.push(
         new SourceVector({
-          url: `/${file}.json`, // 第一个 GeoJSON 文件的路径
+          url: `/ol-vite-vue3/${file}.json`, // 第一个 GeoJSON 文件的路径
           format: new GeoJSON({
             dataProjection: "EPSG:4326",
             featureProjection: "EPSG:3857",

@@ -15,8 +15,8 @@ importers:
         specifier: latest
         version: 10.4.0
       sass:
-        specifier: ^1.85.0
-        version: 1.85.0
+        specifier: ^1.86.0
+        version: 1.86.0
       shapefile:
         specifier: ^0.6.6
         version: 0.6.6
@@ -29,10 +29,10 @@ importers:
     devDependencies:
       '@vitejs/plugin-vue':
         specifier: ^5.2.1
-        version: 5.2.1(vite@6.2.1(sass@1.85.0))(vue@3.5.13)
+        version: 5.2.1(vite@6.2.1(sass@1.86.0))(vue@3.5.13)
       vite:
         specifier: ^6.2.1
-        version: 6.2.1(sass@1.85.0)
+        version: 6.2.1(sass@1.86.0)
 
 packages:
 
@@ -684,8 +684,8 @@ packages:
     engines: {node: '>=18.0.0', npm: '>=8.0.0'}
     hasBin: true
 
-  sass@1.85.0:
-    resolution: {integrity: sha512-3ToiC1xZ1Y8aU7+CkgCI/tqyuPXEmYGJXO7H4uqp0xkLXUqp88rQQ4j1HmP37xSJLbCJPaIiv+cT1y+grssrww==}
+  sass@1.86.0:
+    resolution: {integrity: sha512-zV8vGUld/+mP4KbMLJMX7TyGCuUp7hnkOScgCMsWuHtns8CWBoz+vmEhoGMXsaJrbUP8gj+F1dLvVe79sK8UdA==}
     engines: {node: '>=14.0.0'}
     hasBin: true
 
@@ -990,9 +990,9 @@ snapshots:
 
   '@types/rbush@4.0.0': {}
 
-  '@vitejs/plugin-vue@5.2.1(vite@6.2.1(sass@1.85.0))(vue@3.5.13)':
+  '@vitejs/plugin-vue@5.2.1(vite@6.2.1(sass@1.86.0))(vue@3.5.13)':
     dependencies:
-      vite: 6.2.1(sass@1.85.0)
+      vite: 6.2.1(sass@1.86.0)
       vue: 3.5.13
 
   '@vue/compiler-core@3.5.13':
@@ -1346,7 +1346,7 @@ snapshots:
       '@rollup/rollup-win32-x64-msvc': 4.35.0
       fsevents: 2.3.3
 
-  sass@1.85.0:
+  sass@1.86.0:
     dependencies:
       chokidar: 4.0.3
       immutable: 5.0.3
@@ -1382,14 +1382,14 @@ snapshots:
       is-number: 7.0.0
     optional: true
 
-  vite@6.2.1(sass@1.85.0):
+  vite@6.2.1(sass@1.86.0):
     dependencies:
       esbuild: 0.25.1
       postcss: 8.5.3
       rollup: 4.35.0
     optionalDependencies:
       fsevents: 2.3.3
-      sass: 1.85.0
+      sass: 1.86.0
 
   vue@3.5.13:
     dependencies:

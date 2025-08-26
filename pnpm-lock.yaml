@@ -13,10 +13,10 @@ importers:
         version: 1.8.2
       ol:
         specifier: latest
-        version: 10.4.0
+        version: 10.6.1
       sass:
-        specifier: ^1.85.0
-        version: 1.85.0
+        specifier: ^1.91.0
+        version: 1.91.0
       shapefile:
         specifier: ^0.6.6
         version: 0.6.6
@@ -29,10 +29,10 @@ importers:
     devDependencies:
       '@vitejs/plugin-vue':
         specifier: ^5.2.1
-        version: 5.2.1(vite@6.2.1(sass@1.85.0))(vue@3.5.13)
+        version: 5.2.1(vite@6.2.1(sass@1.91.0))(vue@3.5.13)
       vite:
         specifier: ^6.2.1
-        version: 6.2.1(sass@1.85.0)
+        version: 6.2.1(sass@1.91.0)
 
 packages:
 
@@ -452,19 +452,6 @@ packages:
     resolution: {integrity: sha512-Qgzu8kfBvo+cA4962jnP1KkS6Dop5NS6g7R5LFYJr4b8Ub94PPQXUksCw9PvXoeXPRRddRNC5C1JQUR2SMGtnA==}
     engines: {node: '>= 14.16.0'}
 
-  color-name@2.0.0:
-    resolution: {integrity: sha512-SbtvAMWvASO5TE2QP07jHBMXKafgdZz8Vrsrn96fiL+O92/FN/PLARzUW5sKt013fjAprK2d2iCn2hk2Xb5oow==}
-    engines: {node: '>=12.20'}
-
-  color-parse@2.0.2:
-    resolution: {integrity: sha512-eCtOz5w5ttWIUcaKLiktF+DxZO1R9KLNY/xhbV6CkhM7sR3GhVghmt6X6yOnzeaM24po+Z9/S1apbXMwA3Iepw==}
-
-  color-rgba@3.0.0:
-    resolution: {integrity: sha512-PPwZYkEY3M2THEHHV6Y95sGUie77S7X8v+h1r6LSAPF3/LL2xJ8duUXSrkic31Nzc4odPwHgUbiX/XuTYzQHQg==}
-
-  color-space@2.3.1:
-    resolution: {integrity: sha512-5DJdKYwoDji3ik/i0xSn+SiwXsfwr+1FEcCMUz2GS5speGCfGSbBMOLd84SDUBOuX8y4CvdFJmOBBJuC4wp7sQ==}
-
   combined-stream@1.0.8:
     resolution: {integrity: sha512-FQN4MRfuJeHf7cBbBMJFXhKSDq+2kAArBlmRBvcvFE5BB1HZKXtSFASDhdlz9zOYwxh8lDdnvmMOe/+5cdoEdg==}
     engines: {node: '>= 0.8'}
@@ -575,8 +562,8 @@ packages:
     resolution: {integrity: sha512-0hJU9SCPvmMzIBdZFqNPXWa6dqh7WdH0cII9y+CyS8rG3nL48Bclra9HmKhVVUHyPWNH5Y7xDwAB7bfgSjkUMQ==}
     engines: {node: '>= 0.4'}
 
-  immutable@5.0.3:
-    resolution: {integrity: sha512-P8IdPQHq3lA1xVeBRi5VPqUm5HDgKnx0Ru51wZz5mjxHr5n3RWhjIpOFU7ybkUxfB+5IToy+OLaHYDBIWsv+uw==}
+  immutable@5.1.3:
+    resolution: {integrity: sha512-+chQdDfvscSF1SJqv2gn4SRO2ZyS3xL3r7IW/wWEEzrzLisnOlKiQu5ytC/BVNcS15C39WT2Hg/bjKjDMcu+zg==}
 
   is-extglob@2.1.1:
     resolution: {integrity: sha512-SbKbANkN603Vi4jEZv49LeVJMn4yGwsbzZworEoyEiutsN3nJYdbO36zfhGJ6QEDpOZIFkDtnq5JRxmvl3jsoQ==}
@@ -623,8 +610,8 @@ packages:
   node-addon-api@7.1.1:
     resolution: {integrity: sha512-5m3bsyrjFWE1xf7nz7YXdN4udnVtXK6/Yfgn5qnahL6bCkf2yKt4k3nuTKAtT4r3IG8JNR2ncsIMdZuAzJjHQQ==}
 
-  ol@10.4.0:
-    resolution: {integrity: sha512-gv3voS4wgej1WVvdCz2ZIBq3lPWy8agaf0094E79piz8IGQzHiOWPs2in1pdoPmuTNvcqGqyUFG3IbxNE6n08g==}
+  ol@10.6.1:
+    resolution: {integrity: sha512-xp174YOwPeLj7c7/8TCIEHQ4d41tgTDDhdv6SqNdySsql5/MaFJEJkjlsYcvOPt7xA6vrum/QG4UdJ0iCGT1cg==}
 
   pako@2.1.0:
     resolution: {integrity: sha512-w+eufiZ1WuJYgPXbV/PO3NCMEc3xqylkKHzp8bxp1uW4qaSNQUkwmLLEc3kKsfz8lpV1F8Ht3U1Cm+9Srog2ug==}
@@ -684,8 +671,8 @@ packages:
     engines: {node: '>=18.0.0', npm: '>=8.0.0'}
     hasBin: true
 
-  sass@1.85.0:
-    resolution: {integrity: sha512-3ToiC1xZ1Y8aU7+CkgCI/tqyuPXEmYGJXO7H4uqp0xkLXUqp88rQQ4j1HmP37xSJLbCJPaIiv+cT1y+grssrww==}
+  sass@1.91.0:
+    resolution: {integrity: sha512-aFOZHGf+ur+bp1bCHZ+u8otKGh77ZtmFyXDo4tlYvT7PWql41Kwd8wdkPqhhT+h2879IVblcHFglIMofsFd1EA==}
     engines: {node: '>=14.0.0'}
     hasBin: true
 
@@ -990,9 +977,9 @@ snapshots:
 
   '@types/rbush@4.0.0': {}
 
-  '@vitejs/plugin-vue@5.2.1(vite@6.2.1(sass@1.85.0))(vue@3.5.13)':
+  '@vitejs/plugin-vue@5.2.1(vite@6.2.1(sass@1.91.0))(vue@3.5.13)':
     dependencies:
-      vite: 6.2.1(sass@1.85.0)
+      vite: 6.2.1(sass@1.91.0)
       vue: 3.5.13
 
   '@vue/compiler-core@3.5.13':
@@ -1076,19 +1063,6 @@ snapshots:
   chokidar@4.0.3:
     dependencies:
       readdirp: 4.1.2
-
-  color-name@2.0.0: {}
-
-  color-parse@2.0.2:
-    dependencies:
-      color-name: 2.0.0
-
-  color-rgba@3.0.0:
-    dependencies:
-      color-parse: 2.0.2
-      color-space: 2.3.1
-
-  color-space@2.3.1: {}
 
   combined-stream@1.0.8:
     dependencies:
@@ -1222,7 +1196,7 @@ snapshots:
     dependencies:
       function-bind: 1.1.2
 
-  immutable@5.0.3: {}
+  immutable@5.1.3: {}
 
   is-extglob@2.1.1:
     optional: true
@@ -1262,11 +1236,9 @@ snapshots:
   node-addon-api@7.1.1:
     optional: true
 
-  ol@10.4.0:
+  ol@10.6.1:
     dependencies:
       '@types/rbush': 4.0.0
-      color-rgba: 3.0.0
-      color-space: 2.3.1
       earcut: 3.0.1
       geotiff: 2.1.3
       pbf: 4.0.1
@@ -1346,10 +1318,10 @@ snapshots:
       '@rollup/rollup-win32-x64-msvc': 4.35.0
       fsevents: 2.3.3
 
-  sass@1.85.0:
+  sass@1.91.0:
     dependencies:
       chokidar: 4.0.3
-      immutable: 5.0.3
+      immutable: 5.1.3
       source-map-js: 1.2.1
     optionalDependencies:
       '@parcel/watcher': 2.5.1
@@ -1382,14 +1354,14 @@ snapshots:
       is-number: 7.0.0
     optional: true
 
-  vite@6.2.1(sass@1.85.0):
+  vite@6.2.1(sass@1.91.0):
     dependencies:
       esbuild: 0.25.1
       postcss: 8.5.3
       rollup: 4.35.0
     optionalDependencies:
       fsevents: 2.3.3
-      sass: 1.85.0
+      sass: 1.91.0
 
   vue@3.5.13:
     dependencies:
